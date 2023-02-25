@@ -1,0 +1,2 @@
+# curriculum
+A JavaScript project
