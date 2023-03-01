@@ -146,4 +146,19 @@ https://mdbootstrap.com/docs/standard/extended/timeline/
   content: "";
 }
 
+@font-face {
+  font-family: "Macondo";
+  src: url("/Macondo-Regular.b1311634.ttf");
+}
+
+@font-face {
+  font-family: "TiltWarp";
+  src: url("/TiltWarp-Regular.26ee3a87.ttf");
+}
+
+h1 {
+  font-family: TiltWarp;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=/style.e308ff8e.css.map */
