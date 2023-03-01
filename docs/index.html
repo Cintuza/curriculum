@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Violet García</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container-fluid">
+
+    <div class="row mt-2 justify-content-center">
+      <div class="col-auto align-items-center d-flex">
+        <h1>Curriculum vitae</h1>
+      </div>
+    </div>
+
+    <!--  DATOS PERSONALES  -->
+    <div class="row mt-2 justify-content-center">
+      <!--  Foto de perfil  -->
+      <div class="col-auto align-items-center d-flex">
+        <img src="fotoPerfil.jpg" class="rounded-circle border border-5 border-warning-subtle">
+      </div>
+
+      <div class="col-auto mt-3">
+        <h3>Datos personales</h3>
+
+        <!--  Nombre  -->
+        <div class="row g-1">
+          <div class="col-auto ">
+            <p class="my-0 fw-bold">Nombre: </p>
+          </div>
+          <div class="col-auto">
+            <div id="nombre"></div>
+          </div>
+        </div>
+        
+        <!--  Email  -->
+        <div class="row g-1">
+          <div class="col-auto ">
+            <p class="my-0 fw-bold">Email: </p>
+          </div>
+          <div class="col-auto">
+            <div id="email"></div>
+          </div>
+        </div>
+
+        <!--  Fecha de nacimiento  -->
+        <div class="row g-1">
+          <div class="col-auto ">
+            <p class="my-0 fw-bold">Fecha de nacimiento: </p>
+          </div>
+          <div class="col-auto">
+            <div id="fechaDeNacimiento"></div>
+          </div>
+        </div>
+
+        <!--  Direccion  -->
+        <div class="row g-1">
+          <div class="col-auto ">
+            <p class="my-0 fw-bold">Dirección: </p>
+          </div>
+          <div class="col-auto">
+            <div id="direccion"></div>
+          </div>
+        </div>
+
+        <!--  Telefono  -->
+        <div class="row g-1">
+          <div class="col-auto ">
+            <p class="my-0 fw-bold">Teléfono: </p>
+          </div>
+          <div class="col-auto">
+            <div id="telefono"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  FORMACION PROFESIONAL  -->
+    <div class="row mt-5 justify-content-center">
+      <div class="col-auto">
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <h3>Formación profesional</h3>
+          </div>
+        </div>
+
+        <!--  Diplomatura en Bibliotecologia  -->
+        <div class="row mt-3">
+          <div class="col-1 col-md-auto g-0">
+            <img src="../node_modules/bootstrap-icons/icons/mortarboard.svg" class="mt-1" alt="Birrete" width="32" height="32">  
+          </div>
+          <div class="col-11 col-md-auto">
+            <div class="list-group">
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="mb-1"><a href="http://bibliotecologia.filo.uba.ar/plan-de-estudios" target="_blank">Diplomada en Bibliotecología y Ciencia de la Información</a> (Egresada en 2012)</h5>
+              </div>
+              <p class="mb-2 ms-2">Universidad de Buenos Aires, Facultad de Filosofía y Letras</p>
+            </div>
+          </div>
+        </div>
+
+        <!--  Licenciatura en Bibliotecologia  -->
+        <div class="row mt-2">
+          <div class="col-1 col-md-auto g-0">
+            <img src="../node_modules/bootstrap-icons/icons/mortarboard.svg" class="mt-1" alt="Birrete" width="32" height="32">  
+          </div>
+          <div class="col-11 col-md-auto">
+            <div class="list-group">
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="mb-1"><a href="http://bibliotecologia.filo.uba.ar/plan-de-estudios" target="_blank">Licenciada en Bibliotecología y Ciencia de la Información</a>, orientación en Tecnología de la Información (Egresada en 2020)</h5>
+              </div>
+              <p class="mb-2 ms-2">Universidad de Buenos Aires, Facultad de Filosofía y Letras</p>
+            </div>
+          </div>
+        </div>
+
+        <!--  Tecnicatura en Programacion  -->
+        <div class="row mt-2">
+          <div class="col-1 col-md-auto g-0">
+            <img src="../node_modules/bootstrap-icons/icons/mortarboard.svg" class="mt-1" alt="Birrete" width="32" height="32">  
+          </div>
+          <div class="col-11 col-md-auto">
+            <div class="list-group">
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="mb-1"><a href="http://www.unq.edu.ar/carreras/32-tecnicatura-universitaria-en-programaci%C3%B3n-inform%C3%A1tica.php" target="_blank">Tecnicatura en Programación Universitaria</a> (En curso, 2016-)</h5>
+              </div>
+              <p class="mb-2 ms-2">Universidad Nacional de Quilmes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  EXPERIENCIA LABORAL  -->
+    <div class="row justify-content-center">
+      <div class="col-auto col-lg-8">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-auto">
+            <h3>Experiencia profesional</h3>
+          </div>
+        </div>
+        <section class="py-3">
+          <ul class="timeline">
+            <li class="timeline-item mb-5">
+              <h5 class="fw-bold">Biblioteca Laura Manzo, Universidad Nacional de Quilmes</h5>
+              <p class="text-muted mb-2 fw-bold">2014 - actualidad</p>
+              <div class="row">
+                <div class="col-auto">
+                  <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#tareasUNQ" aria-expanded="false" aria-controls="tareasUNQ">
+                    Tareas
+                  </button>
+                </div>
+                <div class="col">
+                  <div class="collapse collapse" id="tareasUNQ">
+                    <div class="card card-body text-muted">
+                      Procesos técnicos (catálogo y repositorio institucional).
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+        
+            <li class="timeline-item mb-5">
+              <h5 class="fw-bold">Centro de Documentación e Investigación de la Cultura de Izquierdas (CeDInCI)</h5>
+              <p class="text-muted mb-2 fw-bold">2013-2014</p>
+              <div class="row">
+                <div class="col-auto">
+                  <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#tareasCedinci" aria-expanded="false" aria-controls="tareasCedinci">
+                    Tareas
+                  </button>
+                </div>
+                <div class="col">
+                  <div class="collapse collapse" id="tareasCedinci">
+                    <div class="card card-body text-muted">
+                      Atención al público, procesos técnicos, conservación del material.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+        
+            <li class="timeline-item mb-5">
+              <h5 class="fw-bold">Biblioteca, Colegio San Jorge</h5>
+              <p class="text-muted mb-2 fw-bold">2009-2012</p>
+              <div class="row">
+                <div class="col-auto">
+                  <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#tareasSanJorge" aria-expanded="false" aria-controls="tareasSanJorge">
+                    Tareas
+                  </button>
+                </div>
+                <div class="col">
+                  <div class="collapse collapse" id="tareasSanJorge">
+                    <div class="card card-body text-muted">
+                      Procesos técnicos, atención al público, referencia, alfabetización informacional, fomento a la lectura.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </li>
+          </ul>
+        </section>
+        
+
+      </div>
+    </div>
+
+  </div>
+
+  
+  <script src="main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+</body>
+</html>
